@@ -1,0 +1,265 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.header-shape img{
+    position: absolute;
+    margin-top: -31px;
+    left: -1px;
+    z-index: -1;
+}
+.header-shape2 img{
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    z-index: -1;
+}
+.navbar .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.navbar .menu a{
+    padding: 1rem;
+    text-decoration: none;
+    font-family: inherit;
+    color:#0b0757;
+    font-weight: 600;
+    text-align: center;
+}
+.navbar .menu a:hover{
+    color:#0811fb;
+}
+
+.navbar .menu .custom-btn{
+
+    height: 36px;
+    line-height: 36px;
+    background-color: #fdd76e;
+    color: #0b0757;
+    border-radius: 4px;
+    font-size: 13px;
+    box-shadow: 0 3px 42px 2px rgba(12, 82, 255, 0.175);
+    font-family: inherit;
+    text-transform: uppercase;
+}
+.navbar .menu .custom-btn:hover{
+    background-color: #0b0757;
+    color: #ffffff;
+    transition: ease 0.5s;
+}
+.hero .hero-div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 2rem;
+    align-items: center;
+    text-align: left;
+}
+.hero .hero-div .hero-img img{
+    border-radius: 1rem;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 3px 42px 2px rgba(12, 82, 255, 0.175);
+}
+.hero .hero-div .hero-text{
+    width: 554px;
+}
+.hero .hero-div .hero-text .hero-btn button{
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+    background-color: #fdd76e;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    border: none;
+    color: #0b0757;
+    font-family: inherit;
+}
+.hero .hero-div .hero-text .hero-h2 h2{
+    color: #0b0757;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+    line-height: 1.3;
+}
+.hero .hero-div .hero-text .hero-p p{
+    color: #8480ae;
+    font-size: 1.25rem;
+    opacity: 1;
+    font-weight: 400;
+    line-height: 38px;
+    margin-bottom:24px;
+}
+.hero .hero-div .hero-text .hero-btn-2 button {
+    background-color: #0b0757;
+    color: white;
+    box-shadow: 0 3px 42px 2px rgba(255, 255, 255, 0.175);
+    border: none;
+    border-radius: 4px;
+    padding: 0 1.75rem;
+    font-size: 14px;
+    height: 49px;
+    line-height: 49px;
+    text-transform: uppercase;
+}
+.section-3{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background-color: #f4f4ff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.section-3 .group-of-cards-section-3 {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-align: center;
+}
+.group-of-cards-section-3 .section-3-card{
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 12px 30px rgba(47, 91, 234, 0.05);
+    max-width: 24%;
+    border-radius: 6px;
+}
+.group-of-cards-section-3 .section-3-card{
+    display: flex;
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    text-align: center;
+}
+.group-of-cards-section-3 .section-3-card .card-icon-1,.card-icon-2,.card-icon-3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    color: #ffffff;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.group-of-cards-section-3 .section-3-card .card-icon-1{
+    background-color: #048bc9;
+}
+.group-of-cards-section-3 .section-3-card .card-icon-2{
+    background-color: #00b894;
+}
+.group-of-cards-section-3 .section-3-card .card-icon-3{
+    background-color: #fdd76e;
+}
+.group-of-cards-section-3 .section-3-card .border-div{
+    border: 2px dashed #eeeeee;
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+.group-of-cards-section-3 .section-3-card .card-text h4{
+    color: #0b0757;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+.group-of-cards-section-3 .section-3-card .card-text p{
+    color: #8480ae;
+    line-height: 1.9;
+    font-size: 1rem;
+}
+.section-4{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.section-4 .show-of-1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.section-4 .show-of-1 i{
+    width: 60px;
+    height: 60px;
+    background-color: #0b0757;
+    color: #ffffff;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 1.75rem;
+}
+.section-4 .show-of-1 h2{
+     color: #0b0757;
+     line-height: 1.3;
+     font-weight: 600;
+     margin-bottom: 1rem;
+     font-size: 2rem;
+     max-width: 43%;
+ }
+.section-4 .show-of-2 div{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border: none;
+    text-align: center;
+    border-radius: 6px;
+    padding: 0 2rem 0 2rem;
+    color:#0b0757;
+    margin-top: 1.5rem;
+}
+.section-4 .show-of-2 .span-color{
+    background-color: #fdd76e;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 1rem;
+}
+.section-4 .show-of-2 p{
+    font-size: 1.4rem;
+}
+.section-4 .show-of-3{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 7rem;
+}
+.section-4 .show-of-3 .show-of-text-3{
+    margin-right: 4rem;
+}
+.section-4 .show-of-3 .show-of-text-3 h6{
+    background-color: #fdd76e;
+    padding: 8px 20px;
+    display:inline-block;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+    color: #0b0757;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.section-4 .show-of-3 .show-of-text-3 h2{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #0b0757;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.section-4 .show-of-3 .show-of-text-3 span{
+    color: #8480ae;
+    line-height: 1.9;
+    font-size: 1rem;
+}
+.section-4 .show-of-3 .show-of-text-3 p{
+    color: #8480ae;
+    line-height: 1.9;
+    font-size: 1rem;
+}
+.section-4 .show-of-3 .show-of-text-3 .process-bar{
+    height: 6px;
+    background-color: #f4f4ff;
+    width: 100%;
+}
+.section-4 .show-of-3 .show-of-text-3 .process-bar-inside{
+    background-color:#0811fb;
+    width: 90%;
+    height: 6px;
+}
