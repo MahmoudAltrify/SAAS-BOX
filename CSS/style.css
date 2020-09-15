@@ -62,8 +62,12 @@ body{
     height: auto;
     box-shadow: 0 3px 42px 2px rgba(12, 82, 255, 0.175);
 }
+.hero .hero-div .hero-img .img-slide{
+    display: none;
+}
 .hero .hero-div .hero-text{
     width: 554px;
+    display: none;
 }
 .hero .hero-div .hero-text .hero-btn button{
     font-size: 16px;
@@ -132,6 +136,14 @@ body{
     align-items: center;
     text-align: center;
 }
+.active-card{
+    transform: translateY(-10px);
+    box-shadow: 0 18px 56px rgba(47, 91, 234, 0.135);
+    background-color: #8480ae;!important;
+    border-radius: 50%;
+
+
+}
 .group-of-cards-section-3 .section-3-card .card-icon-1,.card-icon-2,.card-icon-3{
     width: 80px;
     height: 80px;
@@ -197,31 +209,57 @@ body{
      font-size: 2rem;
      max-width: 43%;
  }
-.section-4 .show-of-2 div{
+.section-4 .group-of-buttons{
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.group-of-buttons .select-button{
+    color: #0b0757;
+    width: 100%;
+    position: relative;
     border: none;
     text-align: center;
+    font-size: 1.25rem;
     border-radius: 6px;
-    padding: 0 2rem 0 2rem;
-    color:#0b0757;
-    margin-top: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
 }
-.section-4 .show-of-2 .span-color{
+
+.section-4 .group-of-buttons .select-button:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 7px;
+    border-radius: 50px;
+    background-color: #f4f4ff;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+}
+.button-active{
     background-color: #fdd76e;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 1rem;
 }
-.section-4 .show-of-2 p{
-    font-size: 1.4rem;
+.button-active:after{
+    content: '';
+    position: absolute;
+    width: 50%;
+    height: 7px;
+    background-color: #fdd76e !important;
+    border-radius: 6px 0 0 6px;
+    bottom: -20px;
+    right: 50%;
 }
 .section-4 .show-of-3{
-    display: flex;
+    display: none;
     justify-content: space-between;
     flex-direction: row;
     margin-top: 7rem;
 }
+.active-box{
+     display: flex!important;
+ }
 .section-4 .show-of-3 .show-of-text-3{
     margin-right: 4rem;
 }
@@ -263,3 +301,107 @@ body{
     width: 90%;
     height: 6px;
 }
+.hero-section .hero-body{
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-section .hero-body .hero-text-1{
+    padding-left: 4rem;
+}
+.hero-section .hero-body h6{
+    padding: 0.5rem 1rem;
+    background-color: #f4f4ff;
+    color: #0811fb;
+    border-radius: 36px;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.hero-section .hero-body h2{
+    color: #0b0757;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 0 0 1rem 0;
+}
+.hero-section .hero-body p{
+    font-size: 18px;
+    margin-bottom: 1rem;
+    color: #8480ae;
+    line-height: 1.9;
+}
+.hero-section .hero-body .hero-bottom .hero-flex{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    margin-bottom: -29px;
+}
+.hero-section .hero-body .hero-bottom .hero-flex i{
+    color: #0811fb;
+    margin-top: 1.7rem;
+    padding-right: 1rem;
+}
+/*  CONTACT PAGE */
+.contact-body{
+    background-color: #f4f4ff;
+}
+.contact-page{
+    height: 550px;
+}
+.contact-page .contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.contact-page .contact-us h2{
+    color: #0b0757;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.contact-page .contact-icon{
+    display: flex;
+    justify-content: center;
+}
+.section-6{
+    background-color: #f4f4ff;
+}
+.section-6 .price-text{
+    text-align: center;
+    padding-top:  5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.section-6 .price-text h6{
+    color: #8480ae;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: auto;
+}
+.section-6 .price-text h2{
+    font-size: 2.25rem;
+    color: #0b0757;
+    line-height: 1.3;
+    font-weight: 600;
+}
+.section-6 .price-text p{
+    color: #8480ae;
+    line-height: 1.9;
+    font-size: 1.125rem;
+    max-width: 50%;
+}
+
